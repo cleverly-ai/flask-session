@@ -17,7 +17,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Session',
-    version='0.3.1',
+    version='0.3.2',
     url='https://github.com/fengsp/flask-session',
     license='BSD',
     author='Shipeng Feng',
@@ -29,7 +29,7 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'Flask>=0.8'
+        'Flask>=1.0'
     ],
     test_suite='test_session',
     classifiers=[
